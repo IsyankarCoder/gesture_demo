@@ -10,7 +10,7 @@ void main() {
 
 
 class MyButton extends StatelessWidget{
-   const MyButton ({Key? key}):super(key:key);
+   const MyButton ({super.key});
 
    @override
   Widget build(BuildContext context) {
